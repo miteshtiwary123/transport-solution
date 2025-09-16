@@ -1,0 +1,82 @@
+.consignor-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .consignor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .add-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .add-button:hover {
+    background-color: #27ae60;
+  }
+
+  .consignor-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .consignor-table th,
+  .consignor-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+
+  .consignor-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .edit-button,
+  .delete-button {
+    margin-right: 8px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .edit-button {
+    background-color: #3498db;
+    color: white;
+  }
+
+  .edit-button:hover {
+    background-color: #2980b9;
+  }
+
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+
+  .no-data {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+  }

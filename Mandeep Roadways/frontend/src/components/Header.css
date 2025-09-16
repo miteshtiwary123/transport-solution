@@ -1,0 +1,15 @@
+.page-header {
+    text-align: left;
+    background-color: #2c3e50;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .page-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffffff;
+  }
