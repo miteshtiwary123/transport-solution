@@ -15,8 +15,6 @@ class TruckDriverSerializer(serializers.ModelSerializer):
 
 
 class TruckSerializer(serializers.ModelSerializer):
-    owner = TruckOwnerSerializer()
-    driver = TruckDriverSerializer()
 
     class Meta:
         model = Truck

@@ -22,8 +22,8 @@ class TruckDriver(models.Model):
 
 class Truck(models.Model):
     truck_number = models.CharField(max_length=20, unique=True)
-    model_name = models.CharField(max_length=100)
-    capacity_in_tons = models.DecimalField(max_digits=5, decimal_places=2)
+    model_name = models.CharField(max_length=100, null=True, blank=True)
+    capacity_in_tons = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
     owner = models.ForeignKey(TruckOwner, on_delete=models.CASCADE, related_name='trucks')
     driver = models.ForeignKey(TruckDriver, on_delete=models.SET_NULL, null=True, blank=True, related_name='trucks')
     is_active = models.BooleanField(default=True)

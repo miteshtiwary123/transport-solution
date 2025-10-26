@@ -6,3 +6,4 @@ django-filter
 pillow
 python-dotenv
 drf-yasg
+django-cors-headers
